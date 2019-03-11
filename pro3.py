@@ -35,7 +35,7 @@ else :
     #c.execute("CREATE T")
     #conn.commit()
     #c.execute("CREATE TABLE CARS(ID INTEGER PRIMARY KEY  AUTOINCREMENT  NOT NULL,PLATE TEXT UNIQUE NOT NULL, GAS TEXT NOT NULL);")
-    #c.execute("UPDATE INTO CARS where PLATE='6084879' 'SOLAR')" )
+    #c.execute("UPDATE INTO CARS where PLATE='6084879' 'SOLAR'" )
     #conn.commit();
     kindOfGas=c.fetchone()[0]
     print("The kind of Gas the driver need is :",kindOfGas )
